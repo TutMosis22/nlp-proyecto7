@@ -1,0 +1,55 @@
+ Ejemplo 1
+Pregunta: Lucía es más alta que Carla. Carla es más alta que Rosa. ¿Quién es la más baja?
+
+Enfoque Directo:
+Esperado: rosa
+Modelo  : la más baja es rosa.
+
+Chain-of-Thought:
+Esperado: Rosa es más baja que Carla, y Carla es más baja que Lucía. Por lo tanto, Rosa es la más baja.
+Modelo  : para determinar quién es la más baja, primero debemos identificar quién es la más alta entre lucía, carla y rosa.
+
+1. sabemos que lucía es más alta que carla.
+2. también sabemos que carla es más alta que rosa.
+
+por lo tanto, podemos concluir que lucía es la más alta, seguida por carla y finalmente rosa.
+
+entonces, rosa es la más baja de las tres.
+
+------------------------------------------------------------
+
+ Ejemplo 2
+Pregunta: Carlos tiene más libros que Andrés. Andrés tiene más libros que Julio. ¿Quién tiene menos libros?
+
+Enfoque Directo:
+Esperado: julio
+Modelo  : julio tiene menos libros.
+
+Chain-of-Thought:
+Esperado: Julio tiene menos libros que Andrés, y Andrés tiene menos que Carlos. Por lo tanto, Julio tiene menos libros.
+Modelo  : para determinar quién tiene menos libros, primero debemos comparar la cantidad de libros que tienen carlos y julio. 
+
+dado que carlos tiene más libros que andrés y andrés tiene más libros que julio, podemos inferir que carlos tiene más libros que julio. por lo tanto, julio es quien tiene menos libros en comparación con carlos y andrés.
+
+------------------------------------------------------------
+
+ Ejemplo 3
+Pregunta: Ana es mayor que Luis. Luis es mayor que Jorge. ¿Quién es el menor?
+
+Enfoque Directo:
+Esperado: jorge
+Modelo  : jorge es el menor.
+
+Chain-of-Thought:
+Esperado: Jorge es más joven que Luis, y Luis es más joven que Ana. Por lo tanto, Jorge es el menor.
+Modelo  : para determinar quién es el menor, primero debemos identificar quién es el mayor entre ana, luis y jorge.
+
+1. sabemos que ana es mayor que luis.
+2. sabemos que luis es mayor que jorge.
+
+por lo tanto, podemos concluir que ana es la mayor, seguida por luis y finalmente jorge. 
+
+entonces, jorge es el menor de los tres.
+
+------------------------------------------------------------
+
